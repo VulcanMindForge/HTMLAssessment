@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
 	<title>HTML Assessment</title>
 </head>
 <body>
@@ -107,10 +106,27 @@
 	<h1>FORM</h1>
 	<form action="assessment.html">
 		First: <input type="text" name="fName"> Last: <input type="text" name="lName"><br>
-		Favorite Sport: <input list="dropdown"><br>
-		I have: <input type="checkbox" name="hasDone"> this sport<br>
-		For this sport I prefer the: <input type="radial" name="preferance"><br>
-		<input type="submit" value="Submit Queary">
+		Favorite Sport: <br>
+		<select name="favSport">
+			<option value="Soccer">Soccer</option>
+			<option value="Volleyball">Volleyball</option>
+			<option value="Football">Football</option>
+			<option value="Basketball">Basketball</option>
+			<option value="Baseball">Baseball</option>
+		</select>
+		<br>
+		I have: 
+		<input type="checkbox" name="hasDone" value="participate">participated in
+		<input type="checkbox" name="hasDone" value="watch">watched
+		<input type="checkbox" name="hasDone" value="pay">payed to watch
+		<input type="checkbox" name="hasDone" value="gamble">gambled on
+		 : this sport
+		<br>
+		For this sport I prefer the: 
+		<input type="radio" name="preferance" value="amateur">Amateur
+		<input type="radio" name="preferance" value="college">College
+		<input type="radio" name="preferance" value="professional">Professional
+		<br><input type="submit" value="Submit Queary"><br>
 	</form>
 </body>
 </html>
