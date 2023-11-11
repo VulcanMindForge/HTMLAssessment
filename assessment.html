@@ -3,9 +3,114 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+
+	<title>HTML Assessment</title>
 </head>
 <body>
-
+<div>
+	<h1>TEXT</h1>
+	<p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.
+		<blockquote><strong><em>Duis</Strong> aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur.</em>
+		</blockquote>
+	<Strong>Excepteur</Strong> sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+<div>
+	<h1>TABLE</h1>
+	<table>
+		<caption>Scores by quarter</caption>
+		<thead>
+				<td></td>
+				<td colspan="2">
+					<Strong>First Half</Strong>
+				</td>
+				<td colspan="2">
+					<Strong>Second Half</Strong>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><Strong>Team Name</Strong></td>
+				<td><Strong>Q1</Strong></td>
+				<td><Strong>Q2</Strong></td>
+				<td><Strong>Q3</Strong></td>
+				<td><Strong>Q4</Strong></td>
+				<td><Strong>Final</Strong></td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Denver</td>
+				<td>7</td>
+				<td>3</td>
+				<td>0</td>
+				<td>7</td>
+				<td>17</td>
+			</tr>
+			<tr>
+				<td>Chicago</td>
+				<td>0</td>
+				<td>6</td>
+				<td>3</td>
+				<td>6</td>
+				<td>15</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td><Strong>Total</Strong></td>
+				<td><Strong>7</Strong></td>
+				<td><Strong>9</Strong></td>
+				<td><Strong>3</Strong></td>
+				<td><Strong>13</Strong></td>
+				<td><Strong>32</Strong></td>
+			</tr>
+		</tfoot>
+	</table>
+</div>
+<div>
+	<h1>LIST</h1>
+	<ul>
+		<li>
+			<img src="https://1000logos.net/wp-content/uploads/2017/05/New-England-Patriots-Logo.png" width="85" height="85"> <br>
+			<a href="https://www.patriots.com/">New England Patriots</a>
+			<ul>
+				<li>Coach: Gary Kubiak</li>
+				<li>QB
+					<ol>
+						<li>Jay Cutler</li>
+						<li>David Foles</li>
+					</ol>
+				</li>	
+			</ul>
+		</li>
+		<li>
+			<img src="https://assets.turbologo.com/blog/en/2019/12/19084825/Denver-Broncos-logo-cover-480x288.png" width="85" height="85"> <br>
+			<a href="https://www.denverbroncos.com/">Denver Broncos</a>
+			<ul>
+				<li>Coach: Gary Kubiak</li>
+				<li>QB
+					<ol>
+						<li>Brock Osweiler</li>
+						<li>Trevor Siemian</li>
+						<li>Peyton Manning (injured)</li>
+					</ol>
+				</li>
+			</ul>
+		</li>
+	</ul>	
+</div>
+<div>
+	<h1>FORM</h1>
+	<form action="assessment.html">
+		First: <input type="text" name="fName"> Last: <input type="text" name="lName"><br>
+		Favorite Sport: <input list="dropdown"><br>
+		I have: <input type="checkbox" name="hasDone"> this sport<br>
+		For this sport I prefer the: <input type="radial" name="preferance"><br>
+		<input type="submit" value="Submit Queary">
+	</form>
 </body>
 </html>
