@@ -50,6 +50,7 @@ ol > li:first-child {
 }
 
 #teamRoster>li:first-child::before{
+	pointer-events: none;
 	content: "";
 	position: absolute;
 	top: 0;
@@ -69,6 +70,7 @@ ol > li:first-child {
 }
 
 #teamRoster>li:last-child::before{
+	pointer-events: none;
 	content: "";
 	position: absolute;
 	top: 0;
